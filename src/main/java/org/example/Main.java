@@ -17,16 +17,14 @@ public class Main {
 
 
                 for (int i = 0; i <= limite; i++) {
-                    Integer value = isPar.numberIsPAr(i);
-                    if (value == null) {
-                        continue;
-                    }
+                    Integer value = isPar.numberIsPar(i);
+                    if (value == null)continue;
 
                     armazen.add(i);
-
                 }
                 System.out.println(armazen);
                 break;
+
             } catch (Exception e) {
                 System.err.println("Cara nos estamos buscado NUMEROS pares e não LETRAS pares");
                 System.out.println();

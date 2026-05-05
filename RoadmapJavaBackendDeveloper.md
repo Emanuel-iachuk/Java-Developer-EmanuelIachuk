@@ -3,11 +3,13 @@
 Este guia apresenta uma trilha de aprendizado lógica, partindo do básico até o nível profissional para se tornar um desenvolvedor backend especializado em Java e no ecossistema Spring.
 
 ---
+
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+---
 ## 1. Fundamentos da Linguagem Java (O Core)
 Antes de ir para frameworks, você precisa dominar a linguagem pura.
 - [x] **Sintaxe Básica:** Variáveis, tipos de dados (primitivos vs wrappers), operadores.

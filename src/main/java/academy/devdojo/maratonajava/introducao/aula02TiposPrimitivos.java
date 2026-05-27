@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.introducao;
 
+import javax.print.DocFlavor;
+
 public class aula02TiposPrimitivos {
     public static void main(String[] args) {
         // Tipos primitivos
@@ -29,5 +31,10 @@ public class aula02TiposPrimitivos {
 
         boolean isTrue = true; //boolean: Pode assumir apenas true ou false. O tamanho exato depende da Máquina Virtual Java (JVM), mas conceitualmente representa 1 bit de informação.
 
+        //String não é um tipo primitivo mais sim um tipo de referencia
+
+        // Assim como tipos primitivos ela precisa de um identificador(nome)
+        //A String diferente do char usa aspas duplas("")
+        String nome = "Emanuel";
     }
 }

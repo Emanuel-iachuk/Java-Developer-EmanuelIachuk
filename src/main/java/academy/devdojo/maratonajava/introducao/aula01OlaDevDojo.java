@@ -7,5 +7,10 @@ public class aula01OlaDevDojo {
         /*
         * Esse é um comentario que pode conter varias linhas
         */
+
+        /**
+         * Esse é um comentario javadoc
+         */
+
     }
 }

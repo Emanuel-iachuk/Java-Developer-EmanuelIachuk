@@ -45,5 +45,21 @@ public class aula04Operadores {
         System.out.println(true && false); // false(falso)
         System.out.println(true || false); // true(verdadeiro)
         System.out.println(!false); // valor invertido agora e true
+
+        // Operadores de atribuição
+        // =, +=, -=, *=, /=, %=
+
+        double saldoAtual = 50;
+        saldoAtual += 1000;
+        System.out.println("Saldo atual: " + saldoAtual); // Saldo atual 1050
+        saldoAtual -= 1000;
+        System.out.println("Saldo atual: " + saldoAtual); // Saldo atual 50
+        saldoAtual *= 1000;
+        System.out.println("Saldo atual: " + saldoAtual); // Saldo atual 50000
+        saldoAtual /= 1000;
+        System.out.println("Saldo atual: " + saldoAtual); // Saldo atual 50
+        saldoAtual %= 1000;
+        System.out.println("Saldo após %= (Resto de 50 dividido por 1000): " + saldoAtual); // Saldo atual 50
+
     }
 }

@@ -3,8 +3,19 @@ package org.example;
 import java.util.Random;
 
 public class isPar {
-    public static Integer numberIsPar(int number) {return number % 2 == 0 ? number: null;}
-    public static Integer numberIsInpar(int number) {return number % 2 != 0 ? number: null;}
+    public enum TipoParidade{
+        PAR, IMPAR
+    }
+
+    public static Integer filtrarNumero(int numero, TipoParidade tipo){
+        if(tipo == TipoParidade.PAR && numero % 2 == 0){
+            return numero;
+        }
+        if(tipo == TipoParidade.IMPAR && numero % 2 != 0){
+            return numero;
+        }
+        return null;
+    }
 
     public static int rolarDado(){
         Random gerador = new Random();

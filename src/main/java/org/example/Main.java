@@ -18,8 +18,8 @@ public class Main {
                     int limite = scn.nextInt();
 
                     for (int i = 0; i <= limite; i++) {
-                        Integer valuePar = isPar.numberIsPar(i);
-                        Integer valueInpar = isPar.numberIsInpar(i);
+                        Integer valuePar = isPar.filtrarNumero(i, isPar.TipoParidade.PAR);
+                        Integer valueInpar = isPar.filtrarNumero(i, isPar.TipoParidade.IMPAR);
 
                         if (valuePar != null) numerosPar.add(valuePar);
                         if(valueInpar != null) numerosInpar.add(valueInpar);

@@ -6,6 +6,7 @@ public class aule05EstruturasCondicionais03 {
         double salario = 5000;
         String mensagemDoar = "Obrigado por doar";
         String mensagemNaoDoar = "Que pena!!";
+        // Operador ternário
         String resultado = salario > 5000 ? mensagemDoar : mensagemNaoDoar;
         System.out.println(resultado);
 

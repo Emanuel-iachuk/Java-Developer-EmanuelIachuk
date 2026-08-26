@@ -2,6 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 public class aula03TiposPrimitivosExercicio {
     public static void main(String[] args) {
+        //Exercicio imprimir a mensagem corretamente
         String nome = "Emanuel";
         String endereco = "Av mineira n 170";
         int salario = 2000;

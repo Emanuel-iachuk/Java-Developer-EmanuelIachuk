@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.introducao;
 
-import javax.print.DocFlavor;
-
 public class aula02TiposPrimitivos {
     public static void main(String[] args) {
         // Tipos primitivos

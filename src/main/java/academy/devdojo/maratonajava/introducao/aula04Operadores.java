@@ -48,6 +48,7 @@ public class aula04Operadores {
         System.out.println(!false); // valor invertido agora e true
         System.out.println(true ^ true); // false(falso, pois são iguais)
         System.out.println(true ^ false); // true(verdadeiro, pois são diferentes)
+        System.out.println(false ^ true ); // true(verdadeiro, pois são diferentes)
 
         // Operadores de atribuição
         // =, +=, -=, *=, /=, %=

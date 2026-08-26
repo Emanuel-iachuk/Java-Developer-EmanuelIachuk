@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class aule05EstruturasCondicionais01 {
+public class aula05EstruturasCondicionais01 {
     public static void main(String[] args) {
         int age = 17;
 

@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class aule05EstruturasCondicionais05Exercicio {
+public class aula05EstruturasCondicionais05Exercicio {
     public static void main(String[] args) {
 
         //Sistema basico de desconto por dia utilizando switch case;

@@ -13,7 +13,7 @@ Este guia apresenta uma trilha de aprendizado lógica, partindo do básico até 
 ## 1. Fundamentos da Linguagem Java (O Core)
 Antes de ir para frameworks, você precisa dominar a linguagem pura.
 - [x] **Sintaxe Básica:** Variáveis, tipos de dados (primitivos vs wrappers), operadores.
-- [ ] **Estruturas de Controle:** If/Else, Switch, For, While, Do-While.
+- [x] **Estruturas de Controle:** If/Else, Switch, For, While, Do-While.
 - [ ] **Orientação a Objetos (OO):** Classes, Objetos, Herança, Polimorfismo, Abstração e Encapsulamento.
 - [ ] **Interfaces e Classes Abstratas.**
 - [ ] **Java Collections API:** List, Set, Map, ArrayList, HashMap.
